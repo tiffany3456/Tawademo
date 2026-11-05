@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tawa, Wok & Grill | Indian, Chinese & Nyama Choma in Nyali, Mombasa</title>
+<meta name="description" content="Indian and Chinese cuisine and nyama choma inside Pontoon Suites, Nyali, Mombasa. Order on WhatsApp. Free delivery above KSh 2,000 within Nyali.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1a1512;--bg2:#241d18;--ink:#f3e9dc;--mute:#b5a794;--gold:#c9954a;--chili:#b5402a;--line:#3a3028;--btn:#1a1512;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#faf3e8;--bg2:#f0e4d0;--ink:#2a1f17;--mute:#6e5d4b;--gold:#8a5a1a;--line:#dccbb0;--btn:#fff;color-scheme:light}}
+:root[data-theme="light"]{--bg:#faf3e8;--bg2:#f0e4d0;--ink:#2a1f17;--mute:#6e5d4b;--gold:#8a5a1a;--line:#dccbb0;--btn:#fff;color-scheme:light}
+*{box-sizing:border-box}html{height:100%;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'Instrument Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0}
+a{color:inherit}button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.w{max-width:1080px;margin:auto;padding:0 20px}section{padding:64px 0;border-top:1px solid var(--line)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+header .w{display:flex;align-items:center;gap:16px;height:64px}
+.logo{font:700 20px Fraunces,serif;text-decoration:none;margin-right:auto}.logo span{color:var(--gold)}
+nav{display:flex;gap:18px}nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+@media(max-width:700px){nav{display:none}}
+.btn{display:inline-block;border:1px solid var(--gold);background:none;padding:11px 20px;border-radius:6px;cursor:pointer;text-decoration:none;font-weight:600}
+.btn.p{background:var(--gold);color:var(--btn)}.btn:hover{filter:brightness(1.1)}
+.hero{padding:88px 0 72px;background:radial-gradient(900px 380px at 85% 0,rgba(181,64,42,.22),transparent),var(--bg)}
+.hero h1{font-size:clamp(36px,7vw,68px);max-width:14em}.hero p{color:var(--mute);max-width:36em;font-size:18px;margin:20px 0 28px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.promo{background:var(--bg2);border-left:4px solid var(--gold);padding:18px 22px;margin-top:36px;border-radius:0 8px 8px 0}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0}
+input,select,textarea{background:var(--bg2);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%}
+.tools input{max-width:320px}
+.chip{border:1px solid var(--line);background:none;border-radius:99px;padding:6px 14px;cursor:pointer;color:var(--mute)}
+.chip[aria-pressed=true]{background:var(--gold);color:var(--btn);border-color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.ph{aspect-ratio:16/10;display:grid;place-items:center;background:repeating-linear-gradient(45deg,var(--bg2),var(--bg2) 10px,var(--line) 10px,var(--line) 11px);color:var(--mute);font-size:13px}
+.card .b{padding:14px 16px;display:flex;flex-direction:column;gap:6px;flex:1}.card p{margin:0;color:var(--mute);font-size:14px}
+.card .f{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:8px}
+.tag{font-size:12px;color:var(--chili);font-weight:600}.off{opacity:.55}
+#cartbtn{position:relative}#cartbtn b{background:var(--chili);color:#fff;border-radius:99px;padding:0 7px;font-size:13px;margin-left:6px}
+aside{position:fixed;top:0;right:0;bottom:0;width:min(420px,100%);background:var(--bg);border-left:1px solid var(--line);z-index:9;transform:translateX(100%);transition:transform .25s;overflow:auto;padding:20px;padding-top:calc(20px + env(safe-area-inset-top,0px));padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+aside.open{transform:none}
+.line{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);align-items:center}
+.q button{width:28px;height:28px;border-radius:6px;border:1px solid var(--line);background:none;cursor:pointer}
+.sum div{display:flex;justify-content:space-between;padding:3px 0}.sum .t{font-weight:700;font-size:18px;border-top:1px solid var(--line);margin-top:6px;padding-top:8px}
+label{display:block;font-size:14px;color:var(--mute);margin:12px 0 4px}.err{color:#e0735c;font-size:13px;min-height:1em}
+.note{font-size:13px;color:var(--mute)}.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px}
+footer{padding:32px 0;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div class="w"><a class="logo" href="#top">Tawa<span>,</span> Wok &amp; Grill</a>
+<nav aria-label="Main"><a href="#menu">Menu</a><a href="#offers">Offers</a><a href="#gallery">Gallery</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<button class="btn" id="cartbtn" aria-label="Open cart">Cart<b id="cnt">0</b></button></div></header>
+<main id="top">
+<div class="hero"><div class="w"><h1>Great Food. Bold Flavours. Unforgettable Experiences.</h1>
+<p>Discover delicious Indian and Chinese cuisine alongside freshly prepared nyama choma at Tawa, Wok &amp; Grill, inside Pontoon Suites, Nyali, Mombasa.</p>
+<div class="row"><a class="btn p" href="#menu">Explore menu</a><a class="btn" id="waTop" href="#">Order on WhatsApp</a></div>
+<div class="promo"><strong>Free delivery</strong> on orders above KSh 2,000 within Nyali.</div></div></div>
+
+<section id="menu"><div class="w"><h2>Menu</h2>
+<p class="note">Demo items only. Names and prices below are placeholders until the restaurant supplies its real menu (edit the MENU list in the code).</p>
+<div class="tools"><input id="q" type="search" placeholder="Search dishes" aria-label="Search dishes"><div class="row" id="cats"></div></div>
+<div class="grid" id="items"></div></div></section>
+
+<section id="offers"><div class="w"><h2>Special offers</h2><p id="offerlist" class="note">No active offers right now. Check back soon for discounts, family packages and events.</p></div></section>
+
+<section id="gallery"><div class="w"><h2>Gallery</h2><p class="note">Illustrated placeholders. Replace with real photos of the restaurant (set each item's img in the GALLERY list).</p>
+<div class="row" id="gcats" style="margin:20px 0"></div><div class="grid" id="gal"></div></div></section>
+
+<section id="about"><div class="w"><h2>About us</h2><p style="max-width:40em">Tawa, Wok &amp; Grill serves Indian and Chinese cuisine along with nyama choma, inside Pontoon Suites in Nyali. Visit us, or order for collection or delivery through WhatsApp.</p></div></section>
+
+<section id="contact"><div class="w cols"><div><h2>Find us</h2><p>Inside Pontoon Suites, Nyali, Mombasa, Kenya.<br>Next to Nyali Golf View Residence <span class="note">(to be confirmed)</span></p>
+<p>Phone: <a href="tel:+254114151640">+254 114 151640</a><br>Opening hours: <span class="note">to be added</span></p>
+<div class="row"><a class="btn p" id="waC" href="#">WhatsApp us</a><a class="btn" id="map" target="_blank" rel="noopener" href="#">Get directions</a></div></div>
+<form id="cf"><h3>Send a message</h3><label for="cn">Your name</label><input id="cn" required><label for="cm">Message</label><textarea id="cm" rows="4" required></textarea><p class="note">Sends your message to the restaurant on WhatsApp.</p><button class="btn p" type="submit">Send message</button></form></div></section>
+</main>
+<footer><div class="w">© Tawa, Wok &amp; Grill · Pontoon Suites, Nyali, Mombasa</div></footer>
+
+<aside id="cart" aria-label="Your order"><div class="line"><h2 style="font-size:24px">Your order</h2><button class="btn" id="close">Close</button></div>
+<div id="lines"></div>
+<form id="of" novalidate><label for="nm">Full name</label><input id="nm" autocomplete="name"><p class="err" id="e1"></p>
+<label for="ph">Phone number</label><input id="ph" type="tel" autocomplete="tel" placeholder="+254..."><p class="err" id="e2"></p>
+<label for="mode">How do you want your order?</label><select id="mode"><option value="collect">Collect from restaurant</option><option value="nyali">Delivery within Nyali</option><option value="other">Delivery outside Nyali</option></select>
+<div id="addrw" hidden><label for="ad">Delivery address</label><input id="ad" autocomplete="street-address"><p class="err" id="e3"></p></div>
+<label for="ins">Additional instructions</label><textarea id="ins" rows="2"></textarea>
+<div class="sum" id="sum"></div>
+<p class="note">Opening WhatsApp sends your order for the restaurant to review. It is not confirmed or paid until the restaurant replies.</p>
+<button class="btn p" style="width:100%" type="submit">Send order on WhatsApp</button></form></aside>
+
+<script>
+// ===== EDIT HERE: restaurant settings =====
+const CFG={name:"Tawa, Wok & Grill",
+ whatsapp:"254114151640", // PLACEHOLDER: using the listed phone until the order WhatsApp number is confirmed
+ freeThreshold:2000, nyaliFee:null, otherFee:null, // null = fee to be confirmed by the restaurant
+ mapsUrl:"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent("Pontoon Suites, Nyali, Mombasa, Kenya")};
+// ===== DEMO MENU (replace with real items) =====
+const MENU=[
+ {id:1,cat:"Starters",name:"Demo Starter",desc:"Placeholder description.",price:500,on:1},
+ {id:2,cat:"Indian",name:"Demo Indian Dish",desc:"Placeholder description.",price:900,on:1},
+ {id:3,cat:"Chinese",name:"Demo Chinese Dish",desc:"Placeholder description.",price:850,on:1},
+ {id:4,cat:"Nyama Choma",name:"Demo Nyama Choma",desc:"Placeholder description.",price:1200,on:1},
+ {id:5,cat:"Vegetarian",name:"Demo Vegetarian Dish",desc:"Placeholder description.",price:700,on:1},
+ {id:6,cat:"Drinks",name:"Demo Drink",desc:"Placeholder description.",price:250,on:1},
+ {id:7,cat:"Desserts",name:"Demo Dessert",desc:"Placeholder description.",price:400,on:0}];
+const $=s=>document.querySelector(s),KSh=n=>"KSh "+n.toLocaleString("en-KE");
+let cart={},cat="All";
+try{cart=JSON.parse(localStorage.getItem("tawa-cart")||"{}")}catch(e){}
+const save=()=>{try{localStorage.setItem("tawa-cart",JSON.stringify(cart))}catch(e){}};
+const wa=t=>`https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent(t)}`;
+$("#waTop").href=wa("Hello, I would like to order from "+CFG.name);$("#waC").href=wa("Hello "+CFG.name);$("#map").href=CFG.mapsUrl;
+const cats=["All",...new Set(MENU.map(m=>m.cat))];
+function drawCats(){$("#cats").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c==cat}" data-c="${c}">${c}</button>`).join("")}
+function drawMenu(){const s=$("#q").value.toLowerCase(),l=MENU.filter(m=>(cat=="All"||m.cat==cat)&&(m.name+m.desc).toLowerCase().includes(s));
+$("#items").innerHTML=l.length?l.map(m=>`<div class="card ${m.on?"":"off"}"><div class="ph">Photo: ${m.name}</div><div class="b"><span class="tag">DEMO ITEM</span><h3 style="font-size:19px">${m.name}</h3><p>${m.desc}</p><div class="f"><strong>${KSh(m.price)}</strong>${m.on?`<button class="btn p" data-a="${m.id}">Add</button>`:`<span class="note">Unavailable</span>`}</div></div></div>`).join(""):`<p class="note">No dishes match. Try another search or category.</p>`}
+$("#cats").onclick=e=>{if(e.target.dataset.c){cat=e.target.dataset.c;drawCats();drawMenu()}};$("#q").oninput=drawMenu;
+$("#items").onclick=e=>{const id=e.target.dataset.a;if(id){cart[id]=(cart[id]||0)+1;save();draw();$("#cartbtn").animate([{transform:"scale(1.15)"},{transform:"none"}],200)}};
+function calc(){const sub=Object.entries(cart).reduce((a,[id,q])=>a+MENU.find(m=>m.id==id).price*q,0),mode=$("#mode").value;
+let fee=0,note="";if(mode=="nyali"){if(sub>=CFG.freeThreshold&&sub>0)note="Free delivery";else if(CFG.nyaliFee!=null)fee=CFG.nyaliFee,note=KSh(fee);else note="To be confirmed"}
+else if(mode=="other"){if(CFG.otherFee!=null)fee=CFG.otherFee,note=KSh(fee);else note="To be confirmed"}else note="Collection";
+return{sub,fee,note,total:sub+fee,mode}}
+function draw(){const ids=Object.keys(cart);$("#cnt").textContent=ids.reduce((a,i)=>a+cart[i],0);
+$("#lines").innerHTML=ids.length?ids.map(id=>{const m=MENU.find(x=>x.id==id);return`<div class="line"><div>${m.name}<br><span class="note">${KSh(m.price)}</span></div><div class="q"><button data-d="${id}" aria-label="Decrease">−</button> ${cart[id]} <button data-i="${id}" aria-label="Increase">+</button> <button data-r="${id}" aria-label="Remove">✕</button></div></div>`}).join(""):`<p class="note">Your cart is empty. Add dishes from the menu.</p>`;
+$("#of").hidden=!ids.length;$("#addrw").hidden=$("#mode").value=="collect";const c=calc();
+$("#sum").innerHTML=`<div><span>Subtotal</span><span>${KSh(c.sub)}</span></div><div><span>Delivery</span><span>${c.note}</span></div><div class="t"><span>Total</span><span>${KSh(c.total)}${c.note=="To be confirmed"?"+":""}</span></div>`}
+$("#lines").onclick=e=>{const d=e.target.dataset;if(d.i)cart[d.i]++;if(d.d&&--cart[d.d]<1)delete cart[d.d];if(d.r)delete cart[d.r];save();draw()};
+$("#mode").onchange=draw;
+const open=o=>{$("#cart").classList.toggle("open",o);if(o)$("#close").focus()};$("#cartbtn").onclick=()=>open(true);$("#close").onclick=()=>open(false);
+document.onkeydown=e=>{if(e.key=="Escape")open(false)};
+$("#of").onsubmit=e=>{e.preventDefault();const n=$("#nm").value.trim(),p=$("#ph").value.trim(),a=$("#ad").value.trim(),m=$("#mode").value;
+$("#e1").textContent=n.length<2?"Enter your full name.":"";$("#e2").textContent=/^\+?[\d\s-]{9,15}$/.test(p)?"":"Enter a valid phone number.";$("#e3").textContent=m!="collect"&&a.length<3?"Enter a delivery address.":"";
+if(document.querySelectorAll(".err:not(:empty)").length)return;const c=calc();
+const L=Object.entries(cart).map(([id,q])=>{const x=MENU.find(i=>i.id==id);return`• ${q} x ${x.name} @ ${KSh(x.price)} = ${KSh(x.price*q)}`});
+const msg=[`*New order: ${CFG.name}*`,`Name: ${n}`,`Phone: ${p}`,"",...L,"",`Subtotal: ${KSh(c.sub)}`,`Delivery: ${m=="collect"?"Collection":(m=="nyali"?"Within Nyali":"Outside Nyali")+" - "+c.note}`,`Total: ${KSh(c.total)}${c.note=="To be confirmed"?" + delivery":""}`,m!="collect"?`Address: ${a}`:"",$("#ins").value.trim()?`Notes: ${$("#ins").value.trim()}`:""].filter((x,i,r)=>x||r[i-1]).join("\n");
+window.open(wa(msg),"_blank","noopener")};
+$("#cf").onsubmit=e=>{e.preventDefault();window.open(wa(`Message from ${$("#cn").value}: ${$("#cm").value}`),"_blank","noopener")};
+const S=(a,b)=>`<defs><linearGradient id="g${a}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${b[0]}"/><stop offset="1" stop-color="${b[1]}"/></linearGradient></defs><rect width="160" height="100" fill="url(#g${a})"/>`;
+const GALLERY=[
+{c:"Food",t:"Curry and naan",svg:S(1,["#3a2216","#1a1008"])+`<ellipse cx="80" cy="62" rx="60" ry="22" fill="#e8d9c0"/><ellipse cx="80" cy="58" rx="42" ry="14" fill="#b5402a"/><ellipse cx="80" cy="56" rx="30" ry="8" fill="#d9822b"/><circle cx="70" cy="55" r="4" fill="#f3e9dc"/><circle cx="90" cy="57" r="3" fill="#6b8e3a"/><path d="M20 76q20-14 36-4l-6 12q-18-4-30-8z" fill="#d8a85a"/><path d="M70 28q-6 8 0 14M82 22q-6 10 0 16M94 28q-6 8 0 14" stroke="#f3e9dc" stroke-opacity=".5" fill="none" stroke-width="2"/>`},
+{c:"Food",t:"Wok noodles",svg:S(2,["#2a1d12","#120a05"])+`<ellipse cx="80" cy="68" rx="52" ry="18" fill="#f3e9dc"/><path d="M40 64q40-34 80 0q-40 14-80 0z" fill="#d8a85a"/><path d="M50 62q10-10 20 0t20 0t20 0" stroke="#b5402a" fill="none" stroke-width="3"/><circle cx="62" cy="56" r="4" fill="#6b8e3a"/><circle cx="96" cy="54" r="4" fill="#b5402a"/><circle cx="80" cy="52" r="3" fill="#6b8e3a"/>`},
+{c:"Food",t:"Nyama choma platter",svg:S(3,["#33200f","#150c05"])+`<rect x="22" y="58" width="116" height="22" rx="4" fill="#6b4a2a"/><g fill="#8a3b1f"><rect x="34" y="40" width="28" height="20" rx="7"/><rect x="68" y="36" width="28" height="22" rx="7"/><rect x="102" y="42" width="26" height="18" rx="7"/></g><g stroke="#3a1c0e" stroke-width="2"><path d="M40 46h16M74 42h16M108 48h14"/></g><circle cx="50" cy="72" r="5" fill="#6b8e3a"/><circle cx="112" cy="72" r="5" fill="#c9954a"/>`},
+{c:"Interior",t:"Dining room",svg:S(4,["#4a2e1c","#241610"])+`<g stroke="#c9954a"><path d="M40 0v22M80 0v16M120 0v22"/></g><g fill="#f0c36a"><path d="M30 22a10 10 0 0 1 20 0z"/><path d="M70 16a10 10 0 0 1 20 0z"/><path d="M110 22a10 10 0 0 1 20 0z"/></g><rect x="0" y="70" width="160" height="30" fill="#2a1a10"/><g fill="#7a4a28"><rect x="22" y="62" width="36" height="6" rx="2"/><rect x="102" y="62" width="36" height="6" rx="2"/></g><g stroke="#7a4a28" stroke-width="3"><path d="M30 68v22M50 68v22M110 68v22M130 68v22"/></g><circle cx="40" cy="58" r="3" fill="#f3e9dc"/><circle cx="120" cy="58" r="3" fill="#f3e9dc"/>`},
+{c:"Exterior",t:"Pontoon Suites entrance",svg:S(5,["#1f2a44","#c97a3a"])+`<rect x="0" y="82" width="160" height="18" fill="#2a2420"/><rect x="30" y="28" width="100" height="54" fill="#d8c4a4"/><rect x="30" y="24" width="100" height="6" fill="#8a5a1a"/><rect x="68" y="50" width="24" height="32" fill="#3a2216"/><g fill="#f0c36a"><rect x="40" y="40" width="16" height="14"/><rect x="104" y="40" width="16" height="14"/><rect x="40" y="62" width="16" height="12"/><rect x="104" y="62" width="16" height="12"/></g><rect x="62" y="36" width="36" height="8" rx="2" fill="#1a1512"/><path d="M142 82v-22M150 82v-16" stroke="#3f5a2a" stroke-width="4"/>`},
+{c:"Kitchen",t:"Wok on the flame",svg:S(6,["#2b2b2e","#101012"])+`<path d="M44 56q36 36 72 0z" fill="#3b3b40"/><path d="M116 56l28-8" stroke="#3b3b40" stroke-width="5"/><g fill="#e8892b"><path d="M52 92q-4-14 6-20q0 8 6 6q-2 8 4 14z"/><path d="M78 94q-6-18 6-26q0 10 8 8q-3 10 4 18z"/><path d="M104 92q-4-12 4-18q1 8 6 6q-2 6 4 12z"/></g><g fill="#6b8e3a"><circle cx="70" cy="54" r="3"/><circle cx="90" cy="52" r="3"/></g><circle cx="80" cy="50" r="3" fill="#b5402a"/>`},
+{c:"Events",t:"Celebration evenings",svg:S(7,["#2a1840","#140a22"])+`<path d="M0 14q40 16 80 0t80 0" stroke="#c9954a" fill="none"/><g fill="#f0c36a"><circle cx="20" cy="22" r="3"/><circle cx="50" cy="26" r="3"/><circle cx="80" cy="14" r="3"/><circle cx="110" cy="26" r="3"/><circle cx="140" cy="22" r="3"/></g><rect x="20" y="66" width="120" height="8" rx="2" fill="#f3e9dc"/><g fill="#b5402a"><circle cx="50" cy="58" r="7"/><circle cx="80" cy="52" r="7"/><circle cx="110" cy="58" r="7"/></g><g stroke="#f3e9dc" stroke-opacity=".6"><path d="M50 65v1M80 59v7M110 65v1"/></g>`},
+{c:"Drinks",t:"Fresh juice",svg:S(8,["#3a1d12","#1a0d08"])+`<path d="M58 30h44l-6 56H64z" fill="#f3e9dc" fill-opacity=".18" stroke="#f3e9dc" stroke-opacity=".5"/><path d="M61 48h38l-4 36H65z" fill="#e8892b"/><path d="M88 12l-6 40" stroke="#b5402a" stroke-width="4"/><circle cx="104" cy="32" r="10" fill="#8fb04a"/><circle cx="104" cy="32" r="6" fill="#c8dc7a"/>`},
+{c:"Drinks",t:"Masala chai",svg:S(9,["#3a2a1c","#18100a"])+`<path d="M52 48h50v18a22 22 0 0 1-22 22h-6a22 22 0 0 1-22-22z" fill="#e8d9c0"/><path d="M102 54h8a8 8 0 0 1 0 16h-10" stroke="#e8d9c0" stroke-width="4" fill="none"/><ellipse cx="77" cy="48" rx="25" ry="5" fill="#a8683a"/><path d="M66 36q-5 7 0 12M78 30q-5 9 0 16M90 36q-5 7 0 12" stroke="#f3e9dc" stroke-opacity=".5" fill="none" stroke-width="2"/>`}];
+let gc="All";const gcs=["All",...new Set(GALLERY.map(g=>g.c))];
+function drawGal(){$("#gcats").innerHTML=gcs.map(c=>`<button class="chip" aria-pressed="${c==gc}" data-g="${c}">${c}</button>`).join("");
+$("#gal").innerHTML=GALLERY.filter(g=>gc=="All"||g.c==gc).map(g=>`<figure class="card" style="margin:0">${g.img?`<img src="${g.img}" alt="${g.t}" loading="lazy" style="width:100%;display:block">`:`<svg viewBox="0 0 160 100" role="img" aria-label="${g.t} (illustration)" style="width:100%;display:block">${g.svg}</svg>`}<figcaption class="b"><strong>${g.t}</strong><span class="note">${g.c}</span></figcaption></figure>`).join("")}
+$("#gcats").onclick=e=>{if(e.target.dataset.g){gc=e.target.dataset.g;drawGal()}};drawGal();
+drawCats();drawMenu();draw();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Tawa, Wok & Grill","telephone":"+254114151640","servesCuisine":["Indian","Chinese","Nyama choma"],"address":{"@type":"PostalAddress","streetAddress":"Pontoon Suites","addressLocality":"Nyali, Mombasa","addressCountry":"KE"}}</script>
+</body></html>
